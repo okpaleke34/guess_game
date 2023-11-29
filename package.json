@@ -1,0 +1,46 @@
+{
+  "name": "guesser_api",
+  "version": "1.0.0",
+  "description": "Game with purpose",
+  "main": "app.js",
+  "scripts": {
+    "def_test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "okpaleke34",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.28.0",
+    "moment-timezone": "^0.5.43",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.11",
+    "sequelize": "^6.3.5",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
